@@ -1,0 +1,35 @@
+1.Creating a new Capacitor application
+
+npm init @capacitor/app
+
+2.Install Capacitor
+
+npm i @capacitor/core
+npm i -D @capacitor/cli
+
+3.Initialize your Capacitor config
+
+npx cap init
+
+4.Create your Android
+
+npm i @capacitor/android
+npx cap add android
+
+
+5.1Run Build Command 
+
+npm run build
+
+5.2Sync your web code to your native project
+
+npx cap sync
+
+6.Opening the Android Project
+
+npx cap open android
+
+
+7.Running Your App
+
+npx cap run android
